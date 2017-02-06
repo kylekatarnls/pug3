@@ -1,0 +1,30 @@
+{
+    "name": "pug/pug",
+    "type": "library",
+    "keywords": ["phug", "template", "dialect", "html", "views", "render", "presentation", "jade", "pug", "html", "php", "phtml"],
+    "description": "",
+    "license": "MIT",
+    "homepage": "http://phug-lang.com",
+    "authors": [
+        {
+            "name": "KyleKatarn",
+            "email": "jade-php@selfbuild.fr",
+            "homepage": "http://github.com/kylekatarnls"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.0",
+        "pug-php/pug": "^2.0.0"
+    },
+    "require-dev": {
+        "phug/phug": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "./src"
+        }
+    },
+    "bin": [],
+    "suggest": {}
+}
